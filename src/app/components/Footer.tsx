@@ -1,10 +1,10 @@
 import React from "react";
-import { FaTwitter, FaInstagram, FaGithub, FaFacebookF } from 'react-icons/fa'; // Ensure you have these icons imported
+import { FaTwitter, FaInstagram, FaGithub, FaFacebookF } from 'react-icons/fa'; 
 
 const Footer = () => {
   return (
     <footer className="bg-[#F0F0F0] flex flex-col md:flex-row px-6 md:px-20 py-10 mt-16">
-      {/* Left Section */}
+   
       <div className="flex flex-col md:flex-row gap-8 flex-1 mt-2">
         <div className="flex-1">
           <div className="mt-5">
@@ -16,8 +16,8 @@ const Footer = () => {
             </p>
           </div>
           <br />
-          <div className="flex space-x-4 mt-2"> {/* Adjusted spacing */}
-            {/* Social Media Icons */}
+          <div className="flex space-x-4 mt-2"> 
+     
             <div className="h-8 w-8 bg-white rounded-full flex items-center justify-center outline outline-gray-300 hover:bg-black transition duration-300 ease-in-out">
               <FaTwitter className="text-black hover:text-white text-[18px]" />
             </div>

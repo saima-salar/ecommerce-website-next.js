@@ -10,8 +10,8 @@ const Header = () => {
         <b>SHOP.CO</b>
       </a>
       
-      {/* Navigation Links */}
-      <div className='text-[#020817] text-[14px] hidden md:flex '> {/* Flexbox on medium screens and above */}
+
+      <div className='text-[#020817] text-[14px] hidden md:flex '> 
         <ul className='flex gap-6'>
           <li className='transition-transform duration-300 hover:scale-110 ease-in-out'>Shop</li>
           <li className='transition-transform duration-300 hover:scale-110 ease-in-out'>On Sell</li>
@@ -20,7 +20,7 @@ const Header = () => {
         </ul>
       </div>
 
-      {/* Search Bar */}
+    
       <div className="flex items-center justify-center">
         <div className="relative">
           <input 
@@ -36,8 +36,8 @@ const Header = () => {
         </div>
       </div>
 
-      {/* User and Cart Icons */}
-      <div className='flex gap-4 md:gap-6'> {/* Adjust gap for medium screens */}
+    
+      <div className='flex gap-4 md:gap-6'> 
         <FiShoppingCart className='text-black text-[20px]' />
         <FaRegCircleUser className='text-black text-[20px]' />
       </div>

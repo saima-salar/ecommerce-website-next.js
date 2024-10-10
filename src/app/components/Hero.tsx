@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <main className="bg-[#F2F0F1] relative md:px-4 min-h-[550px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat opacity-100 overflow-hidden flex items-center justify-between">
-      {/* Left Side */}
+ 
       <div className="flex-1 pl-6 md:pl-10 lg:pl-16">
         <h1 className="font-extrabold text-6xl mt-8">
           FIND <br /> CLOTHES <br />
@@ -22,7 +22,7 @@ const Hero = () => {
           Shop Now
         </button>
         
-        {/* Statistics Section */}
+
         <div className="flex items-center mt-8">
           <div className="flex flex-col items-center">
             <h3>
@@ -30,14 +30,14 @@ const Hero = () => {
             </h3>
             <p className="text-[12px] text-gray-500">International Brands</p>
           </div>
-          <div className="border-l border-gray-300 h-16 mx-4"></div> {/* Left Divider */}
+          <div className="border-l border-gray-300 h-16 mx-4"></div> 
           <div className="flex flex-col items-center">
             <h3>
               <b>2,000+</b>
             </h3>
             <p className="text-[12px] text-gray-500">High-Quality Products</p>
           </div>
-          <div className="border-l border-gray-300 h-16 mx-4"></div> {/* Left Divider */}
+          <div className="border-l border-gray-300 h-16 mx-4"></div> 
           <div className="flex flex-col items-center">
             <h3>
               <b>3,000+</b>
@@ -47,20 +47,20 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Side - Images */}
+   
       <div className="relative flex-1 h-full">
-        {/* Main Image */}
+   
         <div className="relative w-[240px] h-[340px] md:w-[350px] md:h-[450px] lg:w-[470px] lg:h-[620px]">
           <Image
             alt="Media star"
             src="/images/header-homepage.png"
-            layout="fill" // Use layout fill for better responsiveness
+            layout="fill" 
             objectFit="cover"
-            className="mt-20 ml-1 rounded-lg" // Adding rounded corners
+            className="mt-20 ml-1 rounded-lg" 
           />
         </div>
 
-        {/* Big Star */}
+ 
         <Image
           alt="Big star"
           width={75}
@@ -69,7 +69,7 @@ const Hero = () => {
           className="absolute right-11 top-8 animate-spin [animation-duration:4s]"
         />
 
-        {/* Small Star */}
+   
         <Image
           alt="Small star"
           width={56}
