@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image"; // Assuming you're using next/image for Image component
-import { FaStar } from "react-icons/fa"; // Import FontAwesome star icon
 
 const CardSection = () => {
   return (
