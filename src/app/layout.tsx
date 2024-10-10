@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import TopHeader from "./components/TopHeader";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Banner from "./components/Banner";
+import CardSection from "./components/CardSection";
+import Footer from "./components/Footer";
+import Heading from "./components/Heading";
+import Newsletter from "./components/Newsletter";
+import Heading2 from "./components/Heading2";
+import FeedBack from "./components/FeedBack";
+import TopSelling from "./components/TopSelling";
+import Heading3 from "./components/Heading3";
+import FooterScale from "./components/FooterScale";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +41,20 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <TopHeader />
+        <Header />
+        <Hero />
+        <Banner />
+        <Heading />
+        <CardSection />
+        <Heading3 />
+        <TopSelling />
+        <Heading2 />
+        <FeedBack />
+        <Newsletter />
         {children}
+        <Footer />
+        <FooterScale />
       </body>
     </html>
   );
