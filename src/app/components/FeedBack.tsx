@@ -39,7 +39,7 @@ const FeedBack = () => {
             </div>
             <h3 className="font-bold">{review.name}</h3>
             <blockquote className="mt-2 text-gray-700 italic border-l-4 border-yellow-500 pl-4">
-              "{review.review}"
+              &quot;{review.review}&quot;
             </blockquote>
           </div>
         ))}
